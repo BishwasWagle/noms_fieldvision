@@ -1,0 +1,17 @@
+workload,count,sla_success_rate,policy
+Leafy context classification,45,0.7111111111111111,Local Only
+Leafy crop classification,46,0.043478260869565216,Local Only
+Leafy orthomosaic tiled analysis,51,0.9803921568627451,Local Only
+Rumex weed detection,45,0.6666666666666666,Local Only
+Leafy context classification,45,0.9111111111111111,EDF + Min Completion
+Leafy crop classification,46,0.5,EDF + Min Completion
+Leafy orthomosaic tiled analysis,51,0.9607843137254902,EDF + Min Completion
+Rumex weed detection,45,0.8444444444444444,EDF + Min Completion
+Leafy context classification,45,0.9111111111111111,Priority Aware
+Leafy crop classification,46,0.5,Priority Aware
+Leafy orthomosaic tiled analysis,51,0.9607843137254902,Priority Aware
+Rumex weed detection,45,0.8444444444444444,Priority Aware
+Leafy context classification,45,0.6444444444444445,Random
+Leafy crop classification,46,0.17391304347826086,Random
+Leafy orthomosaic tiled analysis,51,0.803921568627451,Random
+Rumex weed detection,45,0.7111111111111111,Random

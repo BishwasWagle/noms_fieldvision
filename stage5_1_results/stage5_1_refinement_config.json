@@ -1,0 +1,33 @@
+{
+  "seed": 42,
+  "reference_bandwidth_mbps": 25.0,
+  "criticality": {
+    "high": {
+      "probability": 0.2,
+      "priority_weight": 3
+    },
+    "normal": {
+      "probability": 0.6,
+      "priority_weight": 2
+    },
+    "low": {
+      "probability": 0.2,
+      "priority_weight": 1
+    }
+  },
+  "urgency": {
+    "urgent": {
+      "probability": 0.25,
+      "deadline_multiplier": 1.25
+    },
+    "normal": {
+      "probability": 0.55,
+      "deadline_multiplier": 2.0
+    },
+    "relaxed": {
+      "probability": 0.2,
+      "deadline_multiplier": 4.0
+    }
+  },
+  "note": "Criticality and deadline urgency are sampled independently. Both remain experimental systems classes until validated against domain/service requirements."
+}

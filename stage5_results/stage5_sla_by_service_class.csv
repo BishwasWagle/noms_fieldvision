@@ -1,0 +1,13 @@
+service_class,count,sla_success_rate,policy
+critical,44,0.5909090909090909,Local Only
+delay_tolerant,36,0.8611111111111112,Local Only
+standard,107,0.5327102803738317,Local Only
+critical,44,0.7045454545454546,EDF + Min Completion
+delay_tolerant,36,0.9444444444444444,EDF + Min Completion
+standard,107,0.8037383177570093,EDF + Min Completion
+critical,44,0.7045454545454546,Priority Aware
+delay_tolerant,36,0.9444444444444444,Priority Aware
+standard,107,0.8037383177570093,Priority Aware
+critical,44,0.4318181818181818,Random
+delay_tolerant,36,0.8888888888888888,Random
+standard,107,0.5514018691588785,Random

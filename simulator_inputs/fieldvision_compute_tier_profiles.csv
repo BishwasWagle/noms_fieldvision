@@ -1,0 +1,5 @@
+workload,compute_tier,device,compute_ms_p50,compute_ms_p95,is_measured
+Leafy context classification,stage3_current_host,cpu,48.76785400119843,56.69431280293793,True
+Leafy crop classification,stage3_current_host,cpu,47.12208350247238,51.651300349112724,True
+Leafy orthomosaic tiled analysis,stage3_current_host,cpu,2791.581547971873,3701.733592820346,True
+Rumex weed detection,stage3_current_host,cpu,112.26170800000546,129.43540229643986,True

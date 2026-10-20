@@ -1,0 +1,31 @@
+{
+  "seed": 42,
+  "n_tasks": 5000,
+  "n_uavs": 4,
+  "total_arrival_rate_tasks_per_sec": 1.0,
+  "reference_bandwidth_mbps": 25.0,
+  "workload_probabilities": {
+    "Leafy context classification": 0.25,
+    "Leafy crop classification": 0.25,
+    "Leafy orthomosaic tiled analysis": 0.25,
+    "Rumex weed detection": 0.25
+  },
+  "service_classes": {
+    "critical": {
+      "probability": 0.2,
+      "priority_weight": 3,
+      "deadline_multiplier": 1.25
+    },
+    "standard": {
+      "probability": 0.6,
+      "priority_weight": 2,
+      "deadline_multiplier": 2.0
+    },
+    "delay_tolerant": {
+      "probability": 0.2,
+      "priority_weight": 1,
+      "deadline_multiplier": 5.0
+    }
+  },
+  "important_note": "Arrival rates, service-class probabilities, priority weights, and deadline multipliers are experimental simulator assumptions. Input sizes and Stage 3 runtime measurements are empirical."
+}

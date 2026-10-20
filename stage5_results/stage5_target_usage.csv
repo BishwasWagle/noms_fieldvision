@@ -1,0 +1,11 @@
+target,tasks,policy
+local,187,Local Only
+cloud,17,EDF + Min Completion
+edge,48,EDF + Min Completion
+local,122,EDF + Min Completion
+cloud,17,Priority Aware
+edge,48,Priority Aware
+local,122,Priority Aware
+cloud,25,Random
+edge,30,Random
+local,132,Random

@@ -1,0 +1,3 @@
+dataset,sampled_images,median_file_MB,max_file_MB,median_MPixels,max_MPixels,formats,modes
+RumexWeeds,1000,5.205079078674316,5.571624755859375,2.304,2.304,PNG,RGB
+LeafySpurge,1000,4.0008697509765625,35.10857105255127,1.048576,16.777216,"TIFF, PNG","RGBA, RGB"

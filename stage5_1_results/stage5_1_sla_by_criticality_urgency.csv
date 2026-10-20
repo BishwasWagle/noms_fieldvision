@@ -1,0 +1,19 @@
+criticality,urgency,count,sla_success_rate,policy
+high,normal,22,0.9545454545454546,EDF
+high,relaxed,11,0.9090909090909091,EDF
+high,urgent,12,0.75,EDF
+low,normal,15,0.8666666666666667,EDF
+low,relaxed,9,0.8888888888888888,EDF
+low,urgent,8,0.625,EDF
+normal,normal,67,0.746268656716418,EDF
+normal,relaxed,17,1.0,EDF
+normal,urgent,26,0.6538461538461539,EDF
+high,normal,22,0.9545454545454546,Priority Aware
+high,relaxed,11,0.9090909090909091,Priority Aware
+high,urgent,12,0.75,Priority Aware
+low,normal,15,0.8666666666666667,Priority Aware
+low,relaxed,9,0.7777777777777778,Priority Aware
+low,urgent,8,0.625,Priority Aware
+normal,normal,67,0.7313432835820896,Priority Aware
+normal,relaxed,17,1.0,Priority Aware
+normal,urgent,26,0.6153846153846154,Priority Aware
